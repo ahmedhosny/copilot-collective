@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "name": "copilot-collective",
+  "homepage": "https://ahmedhosny.github.io/copilot-collective/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
