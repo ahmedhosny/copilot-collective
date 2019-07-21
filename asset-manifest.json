@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/copilot-collective/static/css/main.795991f2.chunk.css",
+    "main.js": "/copilot-collective/static/js/main.4a579e28.chunk.js",
+    "main.js.map": "/copilot-collective/static/js/main.4a579e28.chunk.js.map",
+    "runtime~main.js": "/copilot-collective/static/js/runtime~main.5472709e.js",
+    "runtime~main.js.map": "/copilot-collective/static/js/runtime~main.5472709e.js.map",
+    "static/js/2.eb815c72.chunk.js": "/copilot-collective/static/js/2.eb815c72.chunk.js",
+    "static/js/2.eb815c72.chunk.js.map": "/copilot-collective/static/js/2.eb815c72.chunk.js.map",
+    "index.html": "/copilot-collective/index.html",
+    "precache-manifest.7e43a020a1c7025c66d3507599a62bbe.js": "/copilot-collective/precache-manifest.7e43a020a1c7025c66d3507599a62bbe.js",
+    "service-worker.js": "/copilot-collective/service-worker.js",
+    "static/css/main.795991f2.chunk.css.map": "/copilot-collective/static/css/main.795991f2.chunk.css.map"
+  }
+}
