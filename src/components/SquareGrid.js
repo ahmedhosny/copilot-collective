@@ -9,7 +9,6 @@ import Data from "../Data.js";
 
 const styles = theme => ({
   body: {
-    backgroundColor: "red",
     margin: "0 auto"
   }
 });

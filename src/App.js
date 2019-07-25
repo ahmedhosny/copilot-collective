@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import SquareGrid from "./components/SquareGrid";
 
@@ -9,7 +8,7 @@ const styles = theme => ({
   root: {
     flexGrow: 1,
     justifyContent: "center",
-    backgroundColor: "blue"
+    backgroundColor: "#eceff1"
   },
   paper: {
     padding: theme.spacing.unit * 2,
@@ -17,7 +16,18 @@ const styles = theme => ({
     color: theme.palette.text.secondary
   },
   center: {
-    justifyContent: "center"
+    marginTop: 50,
+    justifyContent: "center",
+    marginBottom: 50
+  },
+  title: {
+    textAlign: "left",
+    fontSize: 40,
+    marginBottom: 20,
+    fontFamily: "serif",
+    fontStyle: "italic",
+    fontWeight: "bold",
+    color: "#444"
   }
 });
 
@@ -36,10 +46,8 @@ function AutoGrid(props) {
           justifyContent: "center"
         }}
       >
-        <Grid item xs={12}>
-          <Paper className={classes.paper}>The Copilot Collective</Paper>
-        </Grid>
-        <Grid item xs={10} classname={classes.center}>
+        <Grid item xs={10} className={classes.center}>
+          <div className={classes.title}>The Copilot Collective</div>
           <SquareGrid />
         </Grid>
       </Grid>

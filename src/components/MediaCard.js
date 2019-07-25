@@ -23,6 +23,9 @@ const styles = {
     marginTop: -28,
     float: "right",
     marginRight: 15
+  },
+  text: {
+    color: "#444"
   }
 };
 
@@ -70,12 +73,20 @@ function MediaCard(props) {
           <span class="mdi mdi-map mdi-24px" />
         </Fab>
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography
+            className={classes.text}
+            gutterBottom
+            variant="h5"
+            component="h2"
+          >
             {name}
           </Typography>
-          <Typography variant="subheading">{flightpath(route)}</Typography>
-          <Typography variant="body1">
+          <Typography className={classes.text} variant="subheading">
+            {flightpath(route)}
+          </Typography>
+          <Typography className={classes.text} variant="body1">
             {date}
+            {" --- "}
             {callsign}
           </Typography>
         </CardContent>
