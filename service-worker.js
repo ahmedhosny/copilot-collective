@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/copilot-collective/precache-manifest.7e43a020a1c7025c66d3507599a62bbe.js"
+  "/copilot-collective/precache-manifest.91aa61598757bac2bc42463f5d10fd0e.js"
 );
 
 self.addEventListener('message', (event) => {
