@@ -1,5 +1,39 @@
 const Data = [
   {
+    name: "Jacob",
+    route: ["KBED", "KACK", "KBED"],
+    date: "2019-09-13",
+    callsign: "N3572M",
+    images:
+      "https://www.dropbox.com/sh/d6pxxrbipzqylyk/AAAAW3FQWipNU_FH4KAMzNRBa?dl=0",
+    mapForeflight: [
+      "https://plan.foreflight.com/s/track/1F2CA73D-9E1D-479D-B9BD-8AC878C3FFFD/"
+    ]
+  },
+  {
+    name: "Hugo",
+    route: ["KBED", "KACK", "KBED"],
+    date: "2019-09-13",
+    callsign: "N3572M",
+    images:
+      "https://www.dropbox.com/sh/d6pxxrbipzqylyk/AAAAW3FQWipNU_FH4KAMzNRBa?dl=0",
+    mapForeflight: [
+      "https://plan.foreflight.com/s/track/1F2CA73D-9E1D-479D-B9BD-8AC878C3FFFD/"
+    ]
+  },
+
+  {
+    name: "Ammar",
+    route: ["KBED", "7B3", "KBED"],
+    date: "2019-08-06",
+    callsign: "N6910J",
+    images:
+      "https://www.dropbox.com/sh/akuxmgch90f4pik/AAD7M_YEgkJku_SKrldR97fMa?dl=0",
+    mapForeflight: [
+      "https://plan.foreflight.com/s/track/8C27BEBE-5881-4FDE-A575-9C4BB19F49A9/"
+    ]
+  },
+  {
     name: "Tuly",
     route: ["KBED", "KCQX", "KPVC", "KBED"],
     date: "2019-07-01",
