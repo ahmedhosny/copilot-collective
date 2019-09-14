@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31232b1cfae824e7786d0d9d8cb34206",
+    "revision": "45898ad65bad43ee067d09606a328c19",
     "url": "/copilot-collective/index.html"
   },
   {
-    "revision": "12c4fe9390aa678779fa",
+    "revision": "2f185f347583f23cbd55",
     "url": "/copilot-collective/static/css/main.795991f2.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/copilot-collective/static/js/2.70143af2.chunk.js"
   },
   {
-    "revision": "12c4fe9390aa678779fa",
-    "url": "/copilot-collective/static/js/main.d626bdf8.chunk.js"
+    "revision": "2f185f347583f23cbd55",
+    "url": "/copilot-collective/static/js/main.4a8e53bc.chunk.js"
   },
   {
     "revision": "cc8d4c75992a4e621fbd",
